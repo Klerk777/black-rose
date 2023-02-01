@@ -19,7 +19,7 @@ code {
   justify-content: center;
   align-items: center;
 
-  padding: 32px 20px 12px;
+  padding: 20px 20px 12px;
 }
 .article {
   display: flex;
@@ -28,16 +28,16 @@ code {
   align-items: center;
 }
 .article h1 {
-  margin: 40px 0 0;
+  margin: 20px 0 0;
   text-align: center;
-  font-size: 48px;
+  font-size: 34px;
   color: rgb(0, 0, 0);
   text-shadow: rgb(255, 255, 255) 0px 0px 5px, rgb(12, 12, 12) 0px 0px 15px,
     rgb(255, 255, 255) 0px 0px 20px;
 }
 .text {
-  margin: 20px 0;
-  font-size: 38px;
+  margin: 20px 0 0;
+  font-size: 28px;
   color: rgb(0, 0, 0);
   /* text-shadow: rgb(255, 255, 255) 0px 0px 5px, rgb(12, 12, 12) 0px 0px 15px,
     rgb(255, 255, 255) 0px 0px 20px, rgb(12, 12, 12) 0px 0px 30px,
@@ -48,11 +48,11 @@ code {
 }
 .img {
   border-radius: 50%;
-  width: 420px;
+  width: 380px;
 }
 .author {
   font-style: italic;
-  font-size: 18px;
+  font-size: 16px;
   text-align: end;
   color: rgb(124, 122, 122);
 }

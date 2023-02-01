@@ -25,8 +25,8 @@ export const App = () => {
           A symbol of love's disdain.
           <br />
           <p className="author">
-            Writed by Chat GPT with soul of Stephen King <br />
-            Illustration created by DALL-E 2
+            Written by ChatGPT with soul of Stephen King <br /> Illustration
+            created by DALL-E 2
           </p>
         </p>
       </article>

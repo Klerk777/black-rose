@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/black-rose/static/css/main.352e6be8.css",
+    "main.js": "/black-rose/static/js/main.93b4ea44.js",
+    "static/media/DALL·E 2023-02-01 21.10.22 - Сreate an illustration for the poem below about Black Rose in the style of Stephen King_dark-bg.png": "/black-rose/static/media/DALL·E 2023-02-01 21.10.22 - Сreate an illustration for the poem below about Black Rose in the style of Stephen King_dark-bg.a64ce71d0784bcaf8c5c.png",
+    "index.html": "/black-rose/index.html",
+    "main.352e6be8.css.map": "/black-rose/static/css/main.352e6be8.css.map",
+    "main.93b4ea44.js.map": "/black-rose/static/js/main.93b4ea44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.352e6be8.css",
+    "static/js/main.93b4ea44.js"
+  ]
+}

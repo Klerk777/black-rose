@@ -1,5 +1,4 @@
-import blackRose from './DALL·E 2023-02-01 21.10.22 - Сreate an illustration for the poem below about Black Rose in the style of Stephen King_dark-bg.png';
-
+import blackRose from './images/DALL·E 2023-02-01 21.10.22 - Сreate an illustration for the poem below about Black Rose in the style of Stephen King_dark-bg.png';
 export const App = () => {
   return (
     <div className="article-box">

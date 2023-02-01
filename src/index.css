@@ -51,10 +51,12 @@ code {
   width: 380px;
 }
 .author {
+  margin-top: 26px;
   font-style: italic;
-  font-size: 16px;
+  font-size: 15px;
   text-align: end;
   color: rgb(124, 122, 122);
+  text-shadow: rgb(12, 12, 12) 0px 0px 12px, rgb(255, 255, 255) 0px 0px 20px;
 }
 @media screen and (max-width: 720px) {
   .article-box {

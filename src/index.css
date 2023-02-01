@@ -7,9 +7,69 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(20, 20, 20);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.article-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 32px 20px 12px;
+}
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.article h1 {
+  margin: 40px 0 0;
+  text-align: center;
+  font-size: 48px;
+  color: rgb(0, 0, 0);
+  text-shadow: rgb(255, 255, 255) 0px 0px 5px, rgb(12, 12, 12) 0px 0px 15px,
+    rgb(255, 255, 255) 0px 0px 20px;
+}
+.text {
+  margin: 20px 0;
+  font-size: 38px;
+  color: rgb(0, 0, 0);
+  /* text-shadow: rgb(255, 255, 255) 0px 0px 5px, rgb(12, 12, 12) 0px 0px 15px,
+    rgb(255, 255, 255) 0px 0px 20px, rgb(12, 12, 12) 0px 0px 30px,
+    rgb(255, 255, 255) 0px 0px 40px, rgb(12, 12, 12) 0px 0px 55px,
+    rgb(255, 255, 255) 0px 0px 75px, rgba(0, 0, 0, 0) 2px 2px 2px; */
+  text-shadow: rgb(12, 12, 12) 0px 0px 2px, rgb(95, 94, 94) 0px 0px 40px,
+    rgb(255, 255, 255) 0px 0px 20px, rgb(12, 12, 12) 0px 0px 30px;
+}
+.img {
+  border-radius: 50%;
+  width: 420px;
+}
+.author {
+  font-style: italic;
+  font-size: 18px;
+  text-align: end;
+  color: rgb(124, 122, 122);
+}
+@media screen and (max-width: 720px) {
+  .article-box {
+    padding: 20px 12px;
+  }
+  .article h1 {
+    font-size: 32px;
+  }
+  .text {
+    font-size: 24px;
+  }
+  .img {
+    width: 300px;
+  }
+  .author {
+    font-size: 12px;
+  }
 }
